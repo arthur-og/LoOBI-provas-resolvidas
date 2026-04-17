@@ -4,6 +4,8 @@
 import sys
 input = sys.stdin.readline
 
+pint
+
 S, T = map(int, input().split())
 passeios_possiveis = 0
 adj = [[0] * S for _ in range(S)]
@@ -30,6 +32,6 @@ for _ in range(P):
             break
 
     if valido:
-        passeios_possiveis+=1
+        passeios_possiveis += 1
 
 print(f"Numero de passeios possiveis: {passeios_possiveis}")
